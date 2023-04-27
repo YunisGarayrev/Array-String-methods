@@ -33,8 +33,8 @@ searchFor=prompt()
 let count=0;
  for (let i = 0; i < arr.length; i++) { 
   
-  for (let z = 0; z < arr[i].length; z++) {
-    if (arr[i][z].includes(searchFor)){ 
+  for (let y = 0; y < arr[i].length; y++) {
+    if (arr[i][y].includes(searchFor)){ 
       count++; 
         
     } 
