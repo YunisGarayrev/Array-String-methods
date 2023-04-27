@@ -22,3 +22,22 @@
 
 // let count = string.split(searchFor).length - 1;
 // console.log(count); 
+
+
+// ucuncu usul
+
+
+
+let arr = ["Yunis","Garayev","Baki","Sumqayit"];
+searchFor=prompt()
+let count=0;
+ for (let i = 0; i < arr.length; i++) { 
+  
+  for (let z = 0; z < arr[i].length; z++) {
+    if (arr[i][z].includes(searchFor)){ 
+      count++; 
+        
+    } 
+  }  
+} 
+console.log(count);
